@@ -396,7 +396,7 @@ button {
 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1366px) {
 
     .main-container,
     .main-container-left,
@@ -502,7 +502,7 @@ button {
     max-height: 390px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1366px) {
     .card {
         max-height: none;
 
@@ -612,7 +612,7 @@ button:hover {
     width: auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1366px) {
     .cards-text {
         white-space: nowrap;
         overflow-x: auto;
@@ -631,7 +631,7 @@ button:hover {
     width: auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1366px) {
     .cards-text-h1 {
         white-space: nowrap;
         overflow-x: auto;
@@ -665,7 +665,7 @@ button:hover {
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1366px) {
     .main-container-right {
         max-width: none;
         padding-bottom: 0;
@@ -817,7 +817,7 @@ button:hover {
     justify-content: start;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1366px) {
     .main-content-cards {
         gap: 1rem;
     }
@@ -831,7 +831,7 @@ button:hover {
     gap: 2rem;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1366px) {
     .titles-main-content-cards {
         gap: 1rem;
         justify-content: center;
