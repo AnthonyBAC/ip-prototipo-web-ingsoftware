@@ -624,7 +624,7 @@ button:hover {
         overflow-x: auto;
         text-overflow: ellipsis;
         display: block;
-        max-width: 8rem;
+
     }
 }
 
