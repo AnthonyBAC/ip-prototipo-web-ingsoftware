@@ -466,6 +466,10 @@ button {
 
 }
 
+.cards_big:hover .left-bar {
+    background-color: #0a7297;
+}
+
 
 
 .content-grid-card {
@@ -476,9 +480,7 @@ button {
     background-color: #0a7297;
 }
 
-.cards_big:hover .left-bar {
-    background-color: #0a7297;
-}
+
 
 .card_1 {
     grid-column: 1 / 3;
