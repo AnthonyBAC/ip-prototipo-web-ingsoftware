@@ -113,11 +113,6 @@ footer {
 
 }
 
-.cat {
-    color: #FFFFFF;
-    width: 50px;
-    height: 50px;
-}
 
 /* links nav */
 
@@ -263,50 +258,6 @@ ul {
     background-image: url("no-profile-picture-icon.png");
 }
 
-#map {
-    width: 100%;
-    height: 100%;
-}
-
-.profile-picture-3 {
-
-    background-image: url("images/boss.jpg");
-}
-
-.profile-picture-4 {
-
-    background-image: url("images/cat_2.jpg");
-}
-
-.profile-picture-5 {
-
-    background-image: url("images/cat_3.jpg");
-}
-
-.profile-picture-6 {
-
-    background-image: url("images/cat_4.jpg");
-}
-
-.profile-picture-7 {
-
-    background-image: url("images/cat_5.jpg");
-}
-
-.profile-picture-8 {
-
-    background-image: url("images/cat_6.jpg");
-}
-
-.profile-picture-9 {
-
-    background-image: url("images/cat_7.jpg");
-}
-
-.profile-picture-10 {
-
-    background-image: url("images/cat_8.jpg");
-}
 
 
 button {
@@ -329,14 +280,6 @@ button {
     display: grid;
     grid-template: 1fr / auto 1fr;
     gap: 2rem;
-    width: fit-content;
-}
-
-.bottom-header-right {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    gap: 2rem;
-    justify-items: end;
     width: fit-content;
 }
 
@@ -552,7 +495,8 @@ button {
     bottom: 0;
     border-radius: 2rem;
     z-index: 1;
-    /* debajo de la barra */
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -686,12 +630,7 @@ button:hover {
     grid-template-rows: auto 1fr;
 }
 
-.container-2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    min-height: 400px;
-}
+
 
 .announcement-content-1 {
     display: grid;
@@ -704,16 +643,6 @@ button:hover {
 
 }
 
-.announcement-content-2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    overflow-y: scroll;
-    scrollbar-width: thin;
-    scrollbar-color: #2A3F54 #FFFFFF;
-    scrollbar-gutter: stable;
-
-}
 
 
 .card-announcement {
@@ -760,45 +689,6 @@ button:hover {
     border-bottom: 1px dotted #00000062;
 }
 
-.trending-profiles {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 1rem;
-    width: fit-content;
-}
-
-.trending-profile-text {
-    font-size: 1.5rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-wrap: nowrap;
-    width: auto;
-}
-
-.trending-profile-comment {
-
-    font-size: 1rem;
-    font-weight: 300;
-    letter-spacing: 2px;
-    width: 100%;
-}
-
-.trending-profile-texts {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
-    padding: 1rem;
-    transition: all 0.3s ease;
-    border-radius: 1rem;
-    color: #2A3F54;
-}
-
-.trending-profile-texts:hover {
-    cursor: pointer;
-    background-color: #e6e6e6;
-
-}
 
 .card-right {
     background: white;
