@@ -2,8 +2,9 @@
 
 This project is a **frontend admin dashboard prototype** developed as part of my coursework at the institute where I’m currently studying **Computer Engineering**.
 
-The goal of this project is to visually demonstrate the structure and interface of a web-based system for administrative use.  
-It was built using only **HTML** and **CSS**, focusing on layout, UI elements, and responsive design.
+The goal of this project is to visually demonstrate the structure and interface of a web-based system for administrative use.
+
+It was built using only **HTML** and **CSS**, focusing on layout, UI elements, and responsive design for desktops.
 
 ---
 
